@@ -1,0 +1,11 @@
+{
+    "name": "@microbz/core",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "src/index.js",
+    "scripts": {
+        "compile": "echo core compiling...",
+        "prepare": "echo core testing...",
+        "test": "echo core testing..."
+    }
+}
