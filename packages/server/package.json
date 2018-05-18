@@ -1,6 +1,6 @@
 {
-    "name": "@microbz/server",
-    "version": "1.0.1",
+    "name": "microbz-server",
+    "version": "1.0.2",
     "description": "Microbz Server",
     "license": "MIT",
     "main": "dist/index.js",
