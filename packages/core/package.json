@@ -1,6 +1,6 @@
 {
     "name": "@microbz/core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Microbz Core",
     "license": "MIT",
     "main": "dist/index.js",
