@@ -1,4 +1,4 @@
-# boomicrobz
+# Microbz
 
 [![CircleCI Build Status](https://circleci.com/gh/facebook/jest.svg?style=shield)](https://circleci.com/gh/facebook/jest)
 [![Travis Build Status](https://travis-ci.org/facebook/jest.svg?branch=master)](https://travis-ci.org/facebook/jest)
@@ -13,10 +13,7 @@ const microbz = require('microbz')
 
 ## Author
 
----
-
-*   [github/cbdowell](https://github.com/cbdowell)
-*   [twitter/cbdowell](https://twitter.com/cbdowell)
+[Christoher Dowell]('http://cbdowell.surge.sh')
 
 ## License
 

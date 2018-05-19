@@ -1,4 +1,4 @@
-# boo{%= name %}
+# Microbz
 
 [![CircleCI Build Status](https://circleci.com/gh/facebook/jest.svg?style=shield)](https://circleci.com/gh/facebook/jest)
 [![Travis Build Status](https://travis-ci.org/facebook/jest.svg?branch=master)](https://travis-ci.org/facebook/jest)
@@ -13,7 +13,7 @@ const {%= camelcase(name) %} = require('{%= name %}');
 
 ## Author
 
-{%= include("author") %}
+[Christoher Dowell]('http://cbdowell.surge.sh')
 
 ## License
 
