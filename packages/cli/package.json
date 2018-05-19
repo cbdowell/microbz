@@ -1,18 +1,18 @@
 {
     "name": "microbz-cli",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Microbz CLI",
     "license": "MIT",
     "main": "dist/index.js",
-    "scripts": {
-        "compile": "tsc",
-        "prepublish": "npm run compile"
-    },
     "typings": "dist/index.d.ts",
     "typescript": {
         "definition": "dist/index.d.ts"
     },
+    "scripts": {
+        "compile": "tsc",
+        "prepublish": "npm run compile"
+    },
     "dependencies": {
-        "@microbz/core": "^1.0.1"
+        "microbz-core": "^1.0.3"
     }
 }
