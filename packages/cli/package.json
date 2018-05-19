@@ -1,6 +1,6 @@
 {
     "name": "microbz-cli",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Microbz CLI",
     "license": "MIT",
     "main": "dist/index.js",
@@ -13,6 +13,6 @@
         "prepublish": "npm run compile"
     },
     "dependencies": {
-        "microbz-core": "^1.0.3"
+        "microbz-core": "^1.0.4"
     }
 }

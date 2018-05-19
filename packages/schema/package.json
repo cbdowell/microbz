@@ -1,6 +1,6 @@
 {
     "name": "microbz-schema",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Microbz Schema",
     "license": "MIT",
     "main": "dist/index.js",
@@ -13,6 +13,6 @@
         "definition": "dist/index.d.ts"
     },
     "dependencies": {
-        "microbz-core": "^1.0.3"
+        "microbz-core": "^1.0.4"
     }
 }
