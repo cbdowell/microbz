@@ -1,0 +1,27 @@
+{
+    "name": "microbz-service-blog",
+    "version": "1.0.2",
+    "description": "Microbz Blog Service",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "typescript": {
+        "definition": "dist/index.d.ts"
+    },
+    "scripts": {
+        "start": "dotenv -- nodemon -e ts,graphql -x ts-node src/index.ts",
+        "dev": "npm-run-all --parallel start playground",
+        "debug": "dotenv -- nodemon -e ts,graphql -x ts-node --inspect src/index.ts",
+        "playground": "graphql playground",
+        "build": "rimraf dist && tsc",
+        "compile": "tsc",
+        "prepublish": "npm run compile",
+        "deploy": "now"
+    },
+    "dependencies": {
+        "bcryptjs": "2.4.3",
+        "graphql-yoga": "1.14.0",
+        "jsonwebtoken": "8.2.1",
+        "prisma-binding": "1.5.19"
+    }
+}

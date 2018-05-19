@@ -1,4 +1,4 @@
-# boomicrobz
+# boo{%= name %}
 
 [![CircleCI Build Status](https://circleci.com/gh/facebook/jest.svg?style=shield)](https://circleci.com/gh/facebook/jest)
 [![Travis Build Status](https://travis-ci.org/facebook/jest.svg?branch=master)](https://travis-ci.org/facebook/jest)
@@ -8,17 +8,14 @@
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 ```js
-const microbz = require('microbz')
+const {%= camelcase(name) %} = require('{%= name %}');
 ```
 
 ## Author
 
----
-
-*   [github/cbdowell](https://github.com/cbdowell)
-*   [twitter/cbdowell](https://twitter.com/cbdowell)
+{%= include("author") %}
 
 ## License
 
-Copyright © 2018, .
-Released under the MIT License.
+{%= copyright({linkify: true}) %}
+{%= licenseStatement || (license ? ("Released under the " + license + " License.") : "MIT") %}

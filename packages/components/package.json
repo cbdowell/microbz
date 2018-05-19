@@ -1,0 +1,21 @@
+{
+    "name": "microbz-components",
+    "version": "1.0.2",
+    "description": "Microbz Components",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "scripts": {
+        "compile": "tsc",
+        "prepublish": "npm run compile"
+    },
+    "typings": "dist/index.d.ts",
+    "typescript": {
+        "definition": "dist/index.d.ts"
+    },
+    "dependencies": {
+        "@types/react": "^16.3.14",
+        "@types/react-dom": "^16.0.5",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2"
+    }
+}

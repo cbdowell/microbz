@@ -1,15 +1,16 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "lib": ["esnext", "dom", "es6"],
+        "listFiles": false,
         "module": "commonjs",
         "moduleResolution": "node",
-        "sourceMap": true,
-        "declaration": true,
         "noImplicitAny": false,
-        "allowSyntheticDefaultImports": false,
         "pretty": true,
         "removeComments": true,
-        "lib": ["es6", "esnext.asynciterable"],
-        "types": ["@types/node"]
+        "sourceMap": true,
+        "target": "es5",
+        "types": ["@types/jest", "@types/node"]
     }
 }
